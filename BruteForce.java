@@ -17,7 +17,7 @@ public class BruteForce
             }
         }
         throw new IllegalArgumentException("No two sum solution found.");
-    }
+    } // end bruteForce
 
     // Function to fill out an array with random values, sort the array afterwards
     public static void fillArray(int[] arr)
