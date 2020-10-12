@@ -16,3 +16,9 @@ Example of execution of the program with unsorted arrays:
 Example of execution of the program with sorted arrays:
 
 ![Image of execution with sorted arrays](https://i.gyazo.com/1d87e8780541c9391e727c94f047e84f.png)
+
+Using binary search tree method:
+
+Example of execution with unsorted trees:
+
+![Image of execution with unsorted trees](https://gyazo.com/44f064bf032f7bed53b7fa1b215f3878)
