@@ -20,3 +20,14 @@ Example of execution of the program with sorted arrays:
 Using binary search tree method:
 
 ![Image of execution with unsorted trees](https://i.gyazo.com/042bf59d0da3d140ed2cd2a49d827ba4.png)
+
+Example of brute force method with up to 1,000,000 elements:
+
+Sorted:
+![Brute force up to million](https://i.gyazo.com/470c9dc913f5737f037b67999e02f5f0.png)
+
+Unsorted:
+![Brute force up to million, unsorted](https://i.gyazo.com/e0a3069406765a1d625548570ee3693e.png)
+
+Example of binary tree search method up to 1,000,000 elements:
+![Binary search tree method up to million](https://i.gyazo.com/3a4d3d62a5d30f5a8e51bf1d364e138e.png)
