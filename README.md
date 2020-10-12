@@ -21,4 +21,4 @@ Using binary search tree method:
 
 Example of execution with unsorted trees:
 
-![Image of execution with unsorted trees](https://gyazo.com/44f064bf032f7bed53b7fa1b215f3878)
+![Image of execution with unsorted trees](https://i.gyazo.com/44f064bf032f7bed53b7fa1b215f3878.png)
