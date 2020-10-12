@@ -113,7 +113,6 @@ public class BinarySearchTree
         return false;
     } // end findPair
 
-    // Driver function
     public static void main(String[] args)
     {
         // Create objects of BinarySearchTree
@@ -130,28 +129,13 @@ public class BinarySearchTree
         // Fill tree with 100 random values between -100 and 100
         for(int i = 0; i < 100; i++)
         {
-            tree1.insert(rand.nextInt(200)-100);
-        }
-
-        // Fill tree with 1,000 random values between -100 and 100
-        for(int i = 0; i < 1000; i++) {
+            tree1.insert(rand.nextInt(200) - 100);
             tree2.insert(rand.nextInt(200) - 100);
-        }
-
-        // Fill tree with 10,000 random values between -100 and 100
-        for(int i = 0; i < 10000; i++) {
             tree3.insert(rand.nextInt(200) - 100);
-        }
-
-        // Fill tree with 100,000 random values between -100 and 100
-        for(int i = 0; i < 100000; i++) {
             tree4.insert(rand.nextInt(200) - 100);
-        }
-
-        // Fill tree with 1,000,000 random values between -100 and 100
-        for(int i = 0; i < 1000000; i++) {
             tree5.insert(rand.nextInt(200) - 100);
         }
+
 
         System.out.println("The random sum between -200 and 200 is: " + randomSum + "\n");
 
@@ -161,25 +145,25 @@ public class BinarySearchTree
         long nano_tree1_endTime = System.nanoTime();
         System.out.println("Elapsed time: " + (nano_tree1_endTime - nano_tree1_startTime) + " ns.\n");
 
-        System.out.println("Second tree of 1,000 elements:");
+        System.out.println("Second tree of 100 elements:");
         long nano_tree2_startTime = System.nanoTime();
         tree2.findPair(tree2.root, randomSum);
         long nano_tree2_endTime = System.nanoTime();
         System.out.println("Elapsed time: " + (nano_tree2_endTime - nano_tree2_startTime) + " ns.\n");
 
-        System.out.println("Third tree of 10,000 elements:");
+        System.out.println("Third tree of 100 elements:");
         long nano_tree3_startTime = System.nanoTime();
         tree3.findPair(tree3.root, randomSum);
         long nano_tree3_endTime = System.nanoTime();
         System.out.println("Elapsed time: " + (nano_tree3_endTime - nano_tree3_startTime) + " ns.\n");
 
-        System.out.println("Fourth tree of 100,000 elements:");
+        System.out.println("Fourth tree of 100 elements:");
         long nano_tree4_startTime = System.nanoTime();
         tree4.findPair(tree4.root, randomSum);
         long nano_tree4_endTime = System.nanoTime();
         System.out.println("Elapsed time: " + (nano_tree4_endTime - nano_tree4_startTime) + " ns.\n");
 
-        System.out.println("Second tree of 1,000,000 elements:");
+        System.out.println("Fifth tree of 100 elements:");
         long nano_tree5_startTime = System.nanoTime();
         tree3.findPair(tree3.root, randomSum);
         long nano_tree5_endTime = System.nanoTime();
