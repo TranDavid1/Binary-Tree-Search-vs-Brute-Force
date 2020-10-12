@@ -91,7 +91,7 @@ public class BruteForce
         long nano_array5_startTime = System.nanoTime();
         values5 = ob.bruteForce(array5, randomSum);
         long nano_array5_endTime = System.nanoTime();
-        System.out.println("Numbers found in array of 00 elements: " + values5[0] + " and " + values5[1] + ".");
+        System.out.println("Numbers found in array of 100 elements: " + values5[0] + " and " + values5[1] + ".");
         System.out.println("Elapsed time (ns) for 100 elements: " + (nano_array5_endTime-nano_array5_startTime));
     } // end main
 }
